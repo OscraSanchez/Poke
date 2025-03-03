@@ -1,0 +1,26 @@
+*{
+    font-family: 'Press start 2P', cursive;
+}
+.div{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 250px;
+    margin-left: 43%;
+    padding: 5px 5px;
+    text-align: center;
+    color: white;
+}
+body{
+    background-image: url('./img/kanto-map.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.pokedex{
+    width: 24.5%;
+}

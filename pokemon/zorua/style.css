@@ -1,0 +1,57 @@
+.container {
+    text-align: center;
+}
+.imagen {
+    width: 150px;
+    margin: 10px;
+    cursor: pointer;
+}
+.descripcion {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+.highlight {
+    background-color: orange;
+    color: black;
+    padding: 0 4px;
+    border-radius: 4px;
+}
+/* -------------------------------------- */
+*{
+    font-family: 'Press start 2P', cursive;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+.Fondo{
+    background-color: #FAEBD7;
+}
+img{
+    width: 25%;
+}
+.fuego{
+    background-color:#FFA500 ;
+    border-radius: 5px;
+    padding: 2px;
+}
+.Atras{
+    background-color: red;
+    border-radius: 5px;
+    width: 250px;
+    margin-left: 43%;
+    padding: 5px 5px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.cleda{
+    width: 25%;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+        border: 1px solid black;
+        padding: 8px;
+}

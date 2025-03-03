@@ -1,0 +1,28 @@
+*{
+    font-family: 'Press start 2P', cursive;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+.Fondo{
+    background-color: #FAEBD7;
+}
+img{
+    width: 25%;
+}
+.fuego{
+    background-color:#FFA500 ;
+    border-radius: 5px;
+    padding: 2px;
+}
+.Atras{
+    background-color: red;
+    border-radius: 5px;
+    width: 250px;
+    margin-left: 43%;
+    padding: 5px 5px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script>
+        function mostrarDescripcion(texto) {
+            document.getElementById('descripcion').innerHTML = texto;
+        }
+    </script>
+</head>
+<body class="Fondo">
+    <h1>Galería de Imágenes</h1>
+    <div>
+        <table>
+            <tr class="celda">
+                <th>
+                    <img src="../chimchar/img/390.png" alt="Imagen 1" class="img" onclick="mostrarDescripcion('Tipo: <span class=\'fuego\'>Fuego</span><br>Descripción de la Imagen 1')">
+                </th>
+                <th>
+                    <img src="../eevee/img/133.png" alt="Imagen 2" class="img" onclick="mostrarDescripcion('Tipo: <span class=\'highlight\'>Fuego</span><br>Descripción de la Imagen 2')">
+                </th>
+                <th>
+                    <img src="../vulpix/img/037.png" alt="Imagen 3" class="img" onclick="mostrarDescripcion('Tipo: <span class=\'highlight\'>Fuego</span><br>Descripción de la Imagen 3')">
+                </th>
+        </table>
+        <div id="descripcion" class="descripcion"></div>
+    </div>
+</body>
+</html>
