@@ -31,6 +31,12 @@
 .Fondo{
     background-color: #FAEBD7;
 }
+.Fondo2{
+    background-color: rgb(156, 155, 155);
+}
+.Fondo3{
+    background-color: rgb(230, 224, 224);
+}
 .img{
     display: flex;
     justify-content: space-between;
