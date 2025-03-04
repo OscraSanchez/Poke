@@ -10,17 +10,70 @@
     text-align: center;
     color: white;
 }
-body{
+.body{
     background-image: url('./img/kanto-map.jpeg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-a{
+.titulo{
+    color: black;
+    text-align: center;
+}
+.a{
     text-decoration: none;
     color: white;
 }
 .pokedex{
     width: 24.5%;
+}
+.Fondo{
+    background-color: #FAEBD7;
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mar{
+    margin-right: 100px;
+}
+.fuego{
+    background-color:#FFA500 ;
+    border-radius: 5px;
+    padding: 2px;
+    text-decoration: none;
+    color: black;
+}
+.Atras{
+    background-color: red;
+    border-radius: 5px;
+    width: 250px;
+    margin-left: 43%;
+    padding: 5px 5px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.agua{
+    background-color:#4B88FA ;
+    border-radius: 5px;
+    padding: 2px;
+    text-decoration: none;
+    color: black;
+}
+.tierra{
+    background-color:#FADE70 ;
+    border-radius: 5px;
+    padding: 2px;
+    text-decoration: none;
+    color: black;
+}
+.roca{
+    background-color:#FAA042;
+    border-radius: 5px;
+    padding: 2px;
+    text-decoration: none;
+    color: black;
 }

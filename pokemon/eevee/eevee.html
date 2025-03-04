@@ -1,42 +1,24 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galería de Imágenes</title>
-    <style>
-        .container {
-            text-align: center;
-        }
-        .imagen {
-            width: 150px;
-            margin: 10px;
-            cursor: pointer;
-        }
-        .descripcion {
-            margin-top: 20px;
-            font-size: 1.2em;
-        }
-        .highlight {
-            background-color: orange;
-            color: white;
-            padding: 0 4px;
-            border-radius: 4px;
-        }
-    </style>
-    <script>
-        function mostrarDescripcion(texto) {
-            document.getElementById('descripcion').innerHTML = texto;
-        }
-    </script>
+    <title>Pokedex: 0390 Chimchar</title>
+    <link href="./style.css" rel="stylesheet">
+    <link href="./img/pokeball.ico" rel="icon">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div class="container">
-        <h1>Galería de Imágenes</h1>
-        <img src="imagen1.jpg" alt="Imagen 1" class="imagen" onclick="mostrarDescripcion('Tipo: <span class=\'highlight\'>Fuego</span><br>Descripción de la Imagen 1')">
-        <img src="imagen2.jpg" alt="Imagen 2" class="imagen" onclick="mostrarDescripcion('Tipo: <span class=\'highlight\'>Fuego</span><br>Descripción de la Imagen 2')">
-        <img src="imagen3.jpg" alt="Imagen 3" class="imagen" onclick="mostrarDescripcion('Tipo: <span class=\'highlight\'>Fuego</span><br>Descripción de la Imagen 3')">
-        <div id="descripcion" class="descripcion"></div>
-    </div>
+<body class="Fondo">
+    <h1>Chimchar</h1>
+    <br>
+    <div class="img">
+        <a href="https://www.pokemon.com/es/pokedex/chimchar" target="_blank"><img src="../chimchar/img/390.png" alt="Chimchar"></a>
+        <a href="https://www.pokemon.com/es/pokedex/monferno" target="_blank"><img src="../chimchar/img/391.png" alt="Monferno"></a>
+        <a href="https://www.pokemon.com/es/pokedex/infernape" target="_blank"><img src="../chimchar/img/392.png" alt="Monferno"></a>
+      </div>
+    <p>Tipo: <a href="https://www.wikidex.net/wiki/Tipo_fuego" class="fuego">fuego</a> | Debilidad: <a href="https://www.wikidex.net/wiki/Tipo_agua" class="agua">Agua</a> <a href="https://www.wikidex.net/wiki/Tipo_tierra" class="tierra">Tierra</a> <a href="https://www.wikidex.net/wiki/Tipo_roca" class="roca">Roca</a></p>
+    <p>Descripción:<br>Es muy ágil. Antes de dormir apaga la llama del trasero para no provocar un incendio. Los gases de su estómago generan el fuego que le arde en el trasero, el cual disminuye cuando está débil.</p>
+    <br>
+    <a class="Atras" href="../../index.html">Volver a Inicio</a>
 </body>
 </html>

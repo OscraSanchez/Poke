@@ -48,8 +48,9 @@ img{
 .cleda{
     width: 25%;
 }
-table{
+.tabla_zorua{
     border-collapse: collapse;
+    text-align: center;
 }
 th{
         border: 1px solid black;
