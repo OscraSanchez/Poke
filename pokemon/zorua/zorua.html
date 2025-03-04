@@ -1,33 +1,23 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galería de Imágenes</title>
-    <link href="./style.css" rel="stylesheet">
+    <title>Pokedex: 0570 Zorua</title>
+    <link href="../../style.css" rel="stylesheet">
+    <link href="./img/pokeball.ico" rel="icon">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <script>
-        function mostrarDescripcion(texto) {
-            document.getElementById('descripcion').innerHTML = texto;
-        }
-    </script>
 </head>
 <body class="Fondo">
-    <h1>Galería de Imágenes</h1>
-    <div>
-        <table class="Tabla_zorua">
-            <tr class="celda">
-                <th>
-                    <img src="../chimchar/img/390.png" alt="Imagen 1" class="img" onclick="mostrarDescripcion('Tipo: <span class=\'fuego\'>Fuego</span><br>Descripción de la Imagen 1')">
-                </th>
-                <th>
-                    <img src="../eevee/img/133.png" alt="Imagen 2" class="img" onclick="mostrarDescripcion('Tipo: <span class=\'highlight\'>Fuego</span><br>Descripción de la Imagen 2')">
-                </th>
-                <th>
-                    <img src="../vulpix/img/037.png" alt="Imagen 3" class="img" onclick="mostrarDescripcion('Tipo: <span class=\'highlight\'>Fuego</span><br>Descripción de la Imagen 3')">
-                </th>
-        </table>
-        <div id="descripcion" class="descripcion"></div>
-    </div>
+    <h1 class="titulo">Zorua</h1>
+    <br>
+    <div class="img">
+        <a href="https://www.pokemon.com/es/pokedex/zorua" target="_blank"><img src="./img/570.png" alt="Zorua" class="evo"></a>
+        <a href="https://www.pokemon.com/es/pokedex/zoroark" target="_blank"><img src="./img/571.png" alt="Zoroark"></a>
+      </div>
+    <p>Tipo: <a href="https://www.wikidex.net/wiki/Tipo_siniestro" class="siniestro" target="_blank">Siniestro</a> | Debilidad: <a href="https://www.wikidex.net/wiki/Tipo_lucha" class="lucha" target="_blank">Lucha</a> <a href="https://www.wikidex.net/wiki/Tipo_bicho" class="bicho" target="_blank">Bicho</a> <a href="https://www.wikidex.net/wiki/Tipo_hada" class="hada" target="_blank">Hada</a></p>
+    <p>Descripción:<br>Se transforma en otros para crear desconcierto. A menudo, adopta la forma de un niño parco en palabras. Se transforma en humanos o en otros Pokémon. Se defiende del peligro ocultando su verdadera apariencia.</p>
+    <br>
+    <a class="Atras" href="../../index.html">Volver a Inicio</a>
 </body>
 </html>
